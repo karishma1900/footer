@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* first we will add background color */
+
+/* we will add color to footer */
+footer{
+    padding:80px 0px;
+    background-color: #010A21;
+}
+
+/* display flex property to top footer */
+.top-footer{
+    display:flex;
+   color:white;
+   /*we will add justify contebnt property */
+   justify-content: space-between;
+}
+
+/* now we will add some width to footer div */
+.footer{
+    /* this add a max width and make things in center */
+max-width: 70%;
+margin: auto;
+}
+
+/* lets start stylings from logo div */
+.footer-logo img{
+    /* this is perfect size */
+    width:200px;
+}
+.footer-logo p{
+    font-size: 20px;
+   width:310px;
+}
+
+
+/* lets go to socila icons */
+.social-icons{
+    padding:10px 0px;
+}
+.social-icons i{
+    cursor: pointer;
+    width:38px;
+    text-align: center;
+padding:8px;
+border:2px solid white;
+border-radius: 50px;
+
+/* add hover effects */
+
+&:hover{
+    background-color: white;
+    color:#010A21;
+}
+}
+
+/* we will add styligs to serices */
+.service-point{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;;
+}
+.service-point:hover i{
+    color: #f24c1a;
+  
+}
+.service-point:hover p{
+color: #f24c1a; 
+
+}
+.service-point i{
+    padding:0px 5px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.service-point p{
+    font-size: 20px;
+    cursor: pointer;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* add stylings to news letter */
+
+.newsletter p{
+    font-size: 20px;
+    width:400px;
+    padding:10px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* we will add stylings to inpout type text */
+input[type= text]{
+width:70%;
+padding:20px 10px;
+border-radius: 5px;
+border: none;
+background-color:#42495B;
+font-size: 15px;
+
+}
+/* add stylings to button */
+
+button{
+    padding:20px 60px;
+    margin:10px 0px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    background:  linear-gradient(130deg, #f28e26 0%, #f24c1a 45%, #f28e26 90%);
+    &:hover{
+        background:  linear-gradient(130deg,#f24c1a 0%, #f28e26 45%, #f24c1a 90%);
+    }
+}
